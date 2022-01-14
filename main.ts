@@ -6,7 +6,7 @@ radio.onReceivedNumber(function (receivedNumber) {
     }
 })
 radio.setTransmitPower(3)
-radio.setGroup(100)
+radio.setGroup(2)
 basic.forever(function () {
     radio.sendNumber(0)
 })
